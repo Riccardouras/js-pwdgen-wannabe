@@ -4,13 +4,15 @@
 multi
 linea
 */
+
+
+const user_name = prompt ("Come ti chiami?");
+console.log(`user_name`);
+let user_surname = prompt ("Qual e' il tuo cognome?");
+console.log(`user_surname`);
+let user_color = prompt ("E il tuo colore preferito?");
+console.log(`user_color`);
+let text = user_name + user_surname + user_color + '2023';
+console.log(`text`);
+document.getElementById("Pass").innerHTML = `La tua password è: ${text}`;
 document.getElementById('Pass').style.color = "#ff0000";
-let user_name = prompt ("Come ti chiami?")
-
-let user_surname = prompt ("Qual e' il tuo cognome?")
-
-let user_color = prompt ("E il tuo colore preferito?")
-
-let pass = "La tua password è: nome-cognome-colorepreferito-2023"
-
-document.getElementById("Pass").innerHTML = pass;
